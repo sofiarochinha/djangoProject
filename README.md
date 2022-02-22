@@ -2,7 +2,7 @@
 Projeto onde podes inserir notícias, ver todas as notícias guardas e filtrar por tag. A base de dados usada é o mongoDB. 
 
 # packages utilizadas
-asgiref             3.5.0
+asgiref             3.5.0 <br>
 certifi             2021.10.8
 cffi                1.15.0
 charset-normalizer  2.0.12
