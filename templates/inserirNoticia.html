@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Notícias{% endblock %}
+
+{% block content %}
+
+    <h3>Inserir uma nova notícia</h3>
+    <form action="/inserir-noticia/" method="POST">
+    {% csrf_token %}
+    {{form}}
+        <input type="submit">
+    </form>
+
+{% endblock %}

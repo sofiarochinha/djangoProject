@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Notícias{% endblock %}
+
+{% block content %}
+
+<h1>Lista de notícias</h1>
+    {% for noticia in noticias %}
+
+        <div class="card" style="width: 100%; margin: 10px">
+            <img src={{ noticia.image }} class="card-img-top">
+            <div class="card-body">
+              <div style="display: flex; flex-direction: row">
+                <h5 class="card-title">{{ noticia.titulo }}</h5>
+              </div>
+              <p class="card-text">{{ noticia.description }}</p>
+              <a class="btn btn-primary">Tag: {{ noticia.tag}}</a>
+            </div>
+          </div>
+    {% endfor %}
+{% endblock %}
