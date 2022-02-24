@@ -1,7 +1,7 @@
-# djangoProject
+# Web site feito com Django
 Projeto onde podes inserir notícias, ver todas as notícias guardas e filtrar por tag. A base de dados usada é o mongoDB. <br> 
 
-# packages utilizadas
+# Packages utilizadas
 asgiref             3.5.0 <br>
 certifi             2021.10.8 <br>
 cffi                1.15.0 <br>
@@ -30,9 +30,12 @@ wheel               0.37.1 <br>
 Podes instalar a partir do pip <br>
 Podes criar uma variável para guardar as configurações ou instalar globalamente <br>
 
-# criar collections na base de dados
+# Web site para criar uma variável local
+https://www.mongodb.com/compatibility/mongodb-and-django
+
+# Comandos para criar collections na base de dados
 python manage.py migrate <br> 
 python manage.py makemigrations<br> 
 
-# correr o site <br>
+# Comandos para correr o site <br>
 python manage.py runserver <br>
